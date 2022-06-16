@@ -35,11 +35,11 @@ function main() {
     });
 
     console.log(`[AUTO_SHUTDOWN] Shutdown scheduled at ${shutdownAt}`);
-    console.log({
-        now,
-        shutdownAt,
-        diffSeconds,
-        command,
-    });
+    // console.log({
+    //     now,
+    //     shutdownAt,
+    //     diffSeconds,
+    //     command,
+    // });
 }
 main();
